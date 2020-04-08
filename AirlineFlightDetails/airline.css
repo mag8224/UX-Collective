@@ -15,7 +15,7 @@ img {
     display: flex;
     align-items: center;
     background-color: #0d866e;
-    box-shadow:  1px 1px 20px rgba(10,10,10,0.4);
+    box-shadow: 1px 1px 20px rgba(10,10,10,0.4);
 }
 .icon {
     padding:4px;
@@ -43,3 +43,15 @@ img {
     padding:4px;
     box-shadow: inset 0px -4px 10px rgba(100,100,100,0.4);
 }
+.organizeInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    border-bottom: 1px solid rgba(100,100,100, 0.3);
+}
+
