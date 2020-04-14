@@ -1,25 +1,34 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 img {
     height: 14%;
     width: 20%;
 }
+
 .mobileScreen {
     height: 896px;
     width: 414px;
-    background-color:#4de5c3;
+    background-color:#4da8e5;
 }
+
 .appScreen {
     display: grid;
 }
+
 .header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #0d866e;
+    background-color: #1b6799;
     box-shadow: 1px 1px 20px rgba(10,10,10,0.4);
 }
+
 .icon {
     padding:4px;
 }
+
 .titleWords {
     display: flex;
     align-items: center;
@@ -27,21 +36,23 @@ img {
     width: 100%;
     padding: 4px;
 }
+
 .title {
     margin: 0;
     padding: 0;
     color: white;
 }
+
 .inverse {
     color:white;
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     border-radius: 12px;
     margin:1em;
     padding:4px;
-    box-shadow: inset 0px -4px 10px rgba(100,100,100,0.4);
+    box-shadow: 0px 0px 4px rgba(10,10,10,0.6);
 }
 .organizeInfo {
     display: flex;
