@@ -8,7 +8,7 @@
   <meta name="author" content="Melissa Gould">
   <script src="https://kit.fontawesome.com/da9f59f69b.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="airline.css">
 
 </head>
@@ -42,24 +42,42 @@
                     </div>
                 </div>
 
-                <div>
+                <div id="details">
                     <h3>Flight Info</h3>
                     <p class="passenger">Melissa Gould</p>
-                    <h3>Passenger</h3>
-                    <div>
-                            <p>B</p>
-                            <h3>Terminal</h3>
-                            <p>3</p>
-                            <h3>Gate</h3>
+
+                    <div id="table">
+                        <div id="row">
+                            <div class="cell">
+                                <p>B</p>
+                                <h3 class="headerRow">Terminal</h3>
+                            </div>
+                            <div class="cell">
+                                <p>3</p>
+                                <h3 class="headerRow">Gate</h3>
+                            </div>
+                            <div class="cell">
+                                <p>13B</p>
+                                <h3 class="headerRow">Seat</h3>
+                            </div>
+                            <div class="cell">
+                                <p>XYZ123</p>
+                                <h3 class="headerRow">Flight Number</h3>
+                            </div>
+                        </div>
+                
                     </div>
-                    <p class="flight">XYZ123</p>
-                    <h3>Flight Number</h3>
-                    <p class="seat">13B</p>
-                    <h3>Seat</h3>
-                    <img src="./barcode.jpeg" alt="Barcode" />
+                    <div style="display:flex; justify-content: center;">
+                        <img src="./barcode.jpeg" alt="Barcode" />
+                    </div>
+
                 </div>
             </div>
+            <div class="card" id="layoverFlight">
+                <p>This is where a layover flight would go</p>
+            </div>
         </div>
+    
     </div>
   <script src="airline.js"></script>
 </body>

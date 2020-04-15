@@ -3,8 +3,8 @@ body {
 }
 
 img {
-    height: 14%;
-    width: 20%;
+    height:100px;
+    width: 200px;
 }
 
 .mobileScreen {
@@ -66,3 +66,26 @@ img {
     border-bottom: 1px solid rgba(100,100,100, 0.3);
 }
 
+#row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.headerRow {
+    font-size: 0.8rem;
+}
+
+.cell {
+    display: grid;
+    justify-items: center;
+}
+
+#details {
+    padding: 8px;
+}
+
+#layoverFlight {
+    height: 100px;
+}
